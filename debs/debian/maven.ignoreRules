@@ -1,0 +1,4 @@
+
+com.carrotsearch junit-benchmarks * * * *
+junit junit * * * *
+org.apache.maven.plugins maven-gpg-plugin * * * *

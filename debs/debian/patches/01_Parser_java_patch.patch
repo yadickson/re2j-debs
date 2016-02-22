@@ -1,0 +1,11 @@
+--- re2j-1.1/java/com/google/re2j/Parser.java	2015-11-17 10:23:03.000000000 -0430
++++ re2j-1.1~/java/com/google/re2j/Parser.java	2016-02-21 23:59:04.264492146 -0430
+@@ -133,7 +133,7 @@
+                 re.runes[0] + 1 == re.runes[1] &&
+                 Unicode.simpleFold(re.runes[0]) == re.runes[1] &&
+                 Unicode.simpleFold(re.runes[1]) == re.runes[0])) {
+-      // Case-insensitive rune like [Aa] or [Δδ].
++      // Case-insensitive rune like [Aa].
+       if (maybeConcat(re.runes[0], flags | RE2.FOLD_CASE)) {
+         return null;
+       }

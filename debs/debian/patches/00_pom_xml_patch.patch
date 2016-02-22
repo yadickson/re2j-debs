@@ -1,0 +1,25 @@
+--- re2j-1.1/pom.xml	2015-11-17 10:23:03.000000000 -0430
++++ re2j-1.1~/pom.xml	2016-02-21 23:03:42.732434906 -0430
+@@ -23,9 +23,6 @@
+       <distribution>repo</distribution>
+     </license>
+   </licenses>
+-  <prerequisites>
+-    <maven>3.0.3</maven>
+-  </prerequisites>
+   <scm>
+     <connection>scm:git:https://github.com/google/re2j.git</connection>
+     <developerConnection>scm:git:https://github.com/google/re2j.git</developerConnection>
+@@ -33,12 +30,6 @@
+   </scm>
+   <build>
+     <sourceDirectory>java</sourceDirectory>
+-    <testSourceDirectory>javatests</testSourceDirectory>
+-    <testResources>
+-      <testResource>
+-        <directory>testdata</directory>
+-      </testResource>
+-    </testResources>
+     <plugins>
+       <plugin>
+         <artifactId>maven-gpg-plugin</artifactId>

@@ -1,0 +1,11 @@
+--- re2j-1.1/java/com/google/re2j/Unicode.java	2015-11-17 10:23:03.000000000 -0430
++++ re2j-1.1~/java/com/google/re2j/Unicode.java	2016-02-21 23:53:10.304486046 -0430
+@@ -193,7 +193,7 @@
+   //      SimpleFold('a') = 'A'
+   //
+   //      SimpleFold('K') = 'k'
+-  //      SimpleFold('k') = '\u212A' (Kelvin symbol, K)
++  //      SimpleFold('k') = '\u212A' (Kelvin symbol)
+   //      SimpleFold('\u212A') = 'K'
+   //
+   //      SimpleFold('1') = '1'
